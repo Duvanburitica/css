@@ -1,0 +1,98 @@
+  .container.s_menu {
+    display: none;
+  }
+
+  .content-order-success {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    background-image: url("/Acre_4.png");
+  }
+
+  .content-order-success .img-order-success-space {
+    height: 55vh;
+    widows: 100%;
+  }
+
+  .color-green {
+    color: #6ea73a;
+  }
+
+  .color-black {
+    color: black;
+  }
+
+  .color-white {
+    color: white;
+  }
+
+  .background-btn-green {
+    background-color: #6ea73a;
+    border-radius: 5px;
+    padding: 1em 0;
+  }
+
+  .btn-order-success {
+    width: 90%;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    text-align: center;
+    cursor: pointer;
+  }
+
+  .btn-order-success > a {
+    text-decoration: none;
+  }
+
+  .margin-height-bottom-2em {
+    margin: 2em 0;
+  }
+
+  .margin-height-bottom-1em {
+    margin: 1em 0;
+  }
+
+  .text-big-info {
+    font-size: 2em;
+  }
+
+  .text-small-info {
+    font-size: 1em;
+  }
+
+  .text-medium-info {
+    font-size: 1.1em;
+  }
+
+  .width-text {
+    width: 72%;
+    line-height: 1em;
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+  }
+
+  @media screen and (min-width: 1000px) and (max-width: 1920px) {
+    .content-order-success {
+      width: 100%;
+      height: 100%;
+      box-sizing: border-box;
+      background-repeat: no-repeat;
+      background-image: url(/Acre_4.png);
+      background-position: center;
+      background-size: cover;
+    }
+
+    .width-text,
+    .btn-order-success {
+      max-width: 375px;
+    }
+
+    body {
+      background-color: #f9f9f9;
+    }
+
+    .s_menu {
+      height: auto;
+    }
+  }
